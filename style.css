@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-color: #1C1C1C;
+}
+
+.container
+{
+    width: 85%;
+    height: 100vh;
+    margin:auto;
+    background-color: #1C1C1C;
+}
+
+.main-container {
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+    background-color: #1C1C1C;
+}
+
+.home-page 
+{
+    width: 50%;
+    height: 25%;
+}
+
+.home-page 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+span.number 
+{
+    font-size: 20px;
+    color: #45444A;
+    font-weight: 500;
+}
+
+span.border-btn 
+{
+    width: 20%;
+    border-top: 1px solid #45444A;
+    margin: 7%;
+}
+
+span.border-item 
+{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.cover-area 
+{
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    position: relative;
+    height: 100vh;
+    border-top: 10px solid #1A1A1A;
+    border-left: 10px solid #1A1A1A;
+    border-right: 10px solid #1A1A1A;
+}
+
+.yellow-card 
+{
+    width: 18%;
+    height: 22%;
+    background-color: #E39101;
+}
+
+.fordLogo 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 6%;
+    height: 10%;
+    top: 5%;
+    left: 4%;
+    border: 2px solid #f2f2f2;
+}
+
+.fordLogo p 
+{
+    color: #f2f2f2;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 8px;
+}
+
+.nav-items 
+{
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    top: 5%;
+    left: 14%;
+}
+
+ul.each-elements 
+{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.each-elements li 
+{
+    list-style-type: none;
+}
+
+ul.each-elements li a 
+{
+    color: #f2f2f2;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+i.fa-solid.fa-bars-staggered.menuIcon 
+{
+    font-size: 25px;
+}
+
+.div-1
+{
+    background-color: #E39101;
+}
+
+.div-2
+{
+    background-color: red;
+}
+
+.din-2 img
+{
+    width: 100%;
+}
+
+button.yellowBtn 
+{
+    width: 12%;
+    height: 5%;
+    position: absolute;
+    left: 75%;
+    top: 7%;
+    border: none;
+    background-color: #e39101;
+    color: #f2f2f2;
+    font-weight: 500;
+}
+
+ul.social-icons li 
+{
+    list-style-type: none;
+}
+ul.social-icons li a i 
+{
+    color: #f2f2f2;
+    margin-top: 12%;
+    margin-left: 15%;
+    font-size: 15px;
+}
+
+.bigText 
+{
+    margin-top: -373px;
+    margin-left: -225px;
+}
+
+.bigText p 
+{
+    font-size: 60px;
+    font-weight: 800;
+    color: #f2f2f2;
+    line-height: 62px;
+    letter-spacing: 7px;
+}
+
+span.coupe 
+{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 28px;
+    color: #f5f5f5;
+}
+
+button.drive 
+{
+    margin-top: 76px;
+    border: 1px solid #724A22;
+    width: 10%;
+    padding: 10px;
+    background-color: #1C1C1C;
+    color: #f2f2f2;
+    font-weight: 400;
+}
+
+button.drive:hover{
+    background-color: #E39101;
+    color: #f2f2f2;
+}
+
+.dollar 
+{
+    position: absolute;
+    margin-top: 43px;
+    color: #E39101;
+    font-weight: 500;
+}
+
+span.colorChange 
+{
+    color: #595959;
+} 
+
+.second-content-area {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -130px;
+}
+
+.title {
+    font-size: 30px;
+    color: #f2f2f2;
+}
+
+.cars-items span {
+    font-size: 12px;
+    margin-left: 30px;
+    color: #f2f2f2;
+}
+
+
+.cars-items {
+    display: flex;
+    align-items: center;
+}
+
+button.view-all-cars {
+    width: 40%;
+    font-size: 12px;
+    padding: 10px 30px;
+    margin-left: 30px;
+    text-align: center;
+    border: 1px solid #724A22;
+    background-color: #1c1c1c;
+    color: #f2f2f2;
+}
+
+h1.bg-text {
+    width: 100%;
+    margin: auto;
+    color: #19191999;
+    font-size: 315px;
+    font-weight: 900;
+    text-align: center;
+    border-left: 10px solid #1A1A1A;
+    border-right: 10px solid #1A1A1A;
+    overflow: hidden;
+}
+
+.three.cars img {
+    width: 20%;
+}
+
+.three.cars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -280px;
+}
+
+.three-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.three-text h3 {
+    margin-top: 10px;
+    color: #f2f2f2;
+    font-size: 17px;
+}
+
+.three-p {
+    width: 896px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #f2f2f2;
+    font-size: 12px;
+}
+
+img.list-img-three {
+    margin-left: -100px;
+}
+
+img.list-img-two {
+    margin-left: -103px;
+}
+
+p.four {
+    width: 138px;
+    text-align: center;
+}
+
+p.five {
+    width: 139px;
+    text-align: center;
+}
+
+p.six {
+    width: 139px;
+    text-align: center;
+}
+
+.demand-cars {
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.two-items {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.demand-cars p {
+    color: #e39101;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.demandBtn {
+    border: none;
+    background: #1c1c1c;
+    color: #e39101;
+    font-weight: 500;
+}
+
+.again-left-right-border{
+    margin-top: -170px;
+    border-left: 10px solid #1A1A1A;
+    border-right: 10px solid #1A1A1A;
+}
+
+.img-text-one {
+    padding-top: 330px;
+    width: 60%;
+    height: 35%;
+    overflow: hidden;
+}
+
+.img-text-one img {
+    width: 100%;
+}
+
+h4.yellow-big-area {
+    position: absolute;
+    width: 100px;
+    height: 220px;
+    background: #e39101;
+    margin-top: -300px;
+    margin-left: 775px;
+}
+.bigLogoFullText {
+    position: absolute;
+    margin-top: -245px;
+    margin-left: 854px;
+    color: #f2f2f2;
+    font-size: 30px;
+}
+
+h5.followUs {
+    font-size: 15px;
+    color: #e39101;
+    margin-left: 73px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+span.array-right-space {
+    margin-left: 14px;
+}
+
+.rentals {
+    height: 400px;
+    margin-top: -4px;
+    overflow: hidden;
+}
+.rental-text-area {
+    float: left;
+    width: 50%;
+}
+
+.rental-text-area p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #767676;
+    margin-left: 142px;
+    margin-top: 30px;
+}
+
+.rental-img-area {
+    float: right;
+    width: 50%;
+}
+
+.rental-img-area img {
+    width: 100%;
+}
+
+.rental-text-area h3 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #f2f2f2;
+}
+
+.three-service {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    width: 170px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-right: -15px;
+}
+
+.service i{
+    margin: 15px;
+}
+
+.third-time-border{
+    height: 500px;
+    border-left: 10px solid #1A1A1A;
+    border-right: 10px solid #1A1A1A;
+}
+
+.service h5 {
+    color: #f2f2f2;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.service i {
+    color: #f2f2f28a;
+    font-size: 18px;
+}
+
+/* .lastLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid white;
+    float: left;
+    width: 8%;
+    height: 100px;
+    text-align: center;
+}
+
+.lastContact{
+    float: left;
+    width: 25%;
+}
+
+.lastForm {
+    display: flex;
+    margin-top: 200px;
+} */
+
+.last-area {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    padding-top: 200px;
+}
+
+.lastLogo {
+    width: 110px;
+    height: 110px;
+    border: 3px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+}
+
+.lastLogo p {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    margin: 3px;
+    letter-spacing: 2px;
+}
+
+.lastSecondDiv{
+    margin-top: 10px;
+}
+.lastContact {
+    color: #8f8b8b;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.lastContact i {
+    margin: 10px;
+}
+
+.lastFormOne input {
+    border: 1px solid #8a8a8a3d;
+    width: 220px;
+    height: 50px;
+    outline: none;
+    margin: 5px;
+    padding-left: 25px;
+    background: #1c1c1c;
+}
+
+.lastfourDiv input {
+    border: 1px solid #8a8a8a3d;
+    width: 220px;
+    height: 100px;
+    outline: none;
+    padding-left: 25px;
+    background: #1c1c1c;
+}
+
+.lastFormTwo {
+    margin-left: -212px;
+    margin-top: 5px;
+}
+
+button.send {
+    width: 220px;
+    height: 50px;
+    background: #e39101;
+    border: none;
+    color: #f2f2f2;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button.send:hover{
+    background-color: #f2f2f2;
+    color: Black;
+}
+
+.lastFirstDiv {
+    margin-top: 24px;
+    margin-left: 45px;
+}
+
+.lastSecondDiv {
+    margin-top: 10px;
+    margin-left: -60px;
+}
+
+p.privacy {
+    margin-top: 100px;
+    font-size: 14px;
+    color: #75737391;
+}
+
+p.copyRight {
+    width: 320px;
+    font-size: 14px;
+    color: #75737391;
+    margin-top: -17px;
+    margin-left: 1755px;
+}
